@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/backgroundColor"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculate your"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/textColor"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="@color/textColor"
+                android:layout_marginTop="5dp"
+                />
+            <Button
+                android:id="@+id/btnDatePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="select date"
+                android:background="#fff"
+                android:textColor="#929292"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvSelectedDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#844046"
+                android:textSize="20sp"
+                android:paddingTop="15sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selected Date"
+                android:textSize="18sp"
+                android:textColor="#B7B7B7"
+                />
+
+            <TextView
+                android:id="@+id/tvAgeInYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:textSize="28sp"
+                android:textColor="#844046"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Years Old"
+                android:textColor="#B7B7B7"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/tvAgeInMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:textSize="28sp"
+                android:textColor="#844046"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Months Old"
+                android:textColor="#B7B7B7"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/tvAgeInDays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:textSize="28sp"
+                android:textColor="#844046"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Days Old"
+                android:textColor="#B7B7B7"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/tvAgeInHours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:textSize="28sp"
+                android:textColor="#844046"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hours Old"
+                android:textColor="#B7B7B7"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/tvAgeInMinutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:textSize="28sp"
+                android:textColor="#844046"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minutes Old"
+                android:textColor="#B7B7B7"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/tvAgeInSecond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:textSize="28sp"
+                android:textColor="#844046"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Second Old"
+                android:textColor="#B7B7B7"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
